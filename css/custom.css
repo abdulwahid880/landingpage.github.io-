@@ -1,0 +1,352 @@
+*{
+	padding : 0;
+	margin : 0;
+}
+body{
+	overflow-x:hidden;
+	font-family: "open sans", sans-serif;
+	text-rendering: optimized-legibility !important;
+	-webkit-font-smoothing:antialiased !important;
+}
+li{
+	list-style: none;
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+	transition:all 500ns ease-in-out;
+}
+a:hover,
+a:active
+{
+	text-decoration: none;
+}
+h1,h2,h4{
+
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: 'PT sans Narrow', Arial,sans-serif;
+}
+p{
+	font-size: 15px;
+	line-height: 21px;
+}
+.btn{
+      transition:all 500ns ease-in-out;
+      font-weight: 500 !important;
+      text-transform: uppercase;
+}
+.btn:hover{
+	background-color: #ededed !important;
+	color: #3c3c3c !important;
+	border: 1px solid #fff !important;
+}
+ .navbar{
+ 	background-color: #222222 !important;
+ 	text-transform: uppercase;
+ 	font-family: 'PT sans Narrow', Arial,sans-serif;
+ 	font-weight: 700;
+
+}
+.navbar a{
+	color: #fff !important;
+	opacity:0.7;
+}
+.navbar a:hover{
+	opacity:1;
+	background-color: #111111 !important;
+}
+   
+    /*header*/
+#ppp{
+	color: #fff;
+}
+#ttt{
+	color: #fff;
+}
+#pp{
+	color:#fff;
+}
+
+ .header{
+ 	height: 600px;
+ 	width: 100%;
+ 	padding: 30px,0,30px;
+ 	margin-top: 50px;
+ 	background-image: url(../img/Desert_of_the_Real.png);
+ 	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+img{
+	height: 350px;
+	width: 450px;
+	margin: 70px 0 0 40px;
+}
+.header h1{
+	font-weight: 700;
+	font-size: 40px;
+	padding-top: 30px;
+
+}
+.header h1,
+.header p ,
+.header button
+{
+	margin-top: 20px;
+}
+.header .btn{
+	border-radius: 1;
+	margin:40px,20px;
+}
+
+@media(max-width: 768px){
+	.header{
+		padding:30px;
+		height: 750px;
+	}
+	.header img{
+		width: 90%;
+		height: 300px;
+		margin: 20px 0 0 20px;
+	}
+	.header .btn{
+		font-size: 10px;
+		margin-left: 20px;
+	}
+	.header h1{
+		font-size: 20px;
+	}
+	.header p {
+		font-size: 10px;
+	}
+}
+
+    /*services*/
+
+.services{
+         
+     padding: 80px 0 80px;
+     text-align: center;
+}    
+.services h2
+.services h4{
+
+	 color: #4c4c4c;
+	 margin: 20px 0 20px;
+	 padding-top: 20px;
+}
+.services p{
+	color: #737373;
+	font-size: 14px;
+	padding-bottom: 40px;
+}
+.services i{
+	height: 80px;
+	width: 80px;
+	font-size: 30px;
+	padding: 25px 20px 30px;
+	border-radius: 50%;
+	background-color: #6699cc;
+	color: #fff;
+}
+@media(max-width: 768px){
+	.services{
+		padding: 30px;
+	}
+}
+
+/*pricing*/
+
+.pricing{
+	padding: 50px 0 80px;
+	background-color: #3399ff;
+	text-align: center;
+}
+.pricing h2 ,p{
+	color: #fff;
+}
+.pricing p{
+	padding-bottom: 40px;
+}
+.pricing .packges{
+	padding:30px;
+	border:1px solid #ccc;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+.packges li{
+ 
+      display: block;
+      padding: 5px;   
+}
+.packges h4,h1,b{
+	color: #4c4c4c;
+}
+.packges li , p{
+	color: #737373;
+}
+.packges button{
+	margin-top: 10px;
+}
+#pp {
+color:#fff;
+}
+@media(max-width: 768px){
+	.pricing {
+		padding:30px;
+	}
+	.packges{
+		width: 80%;
+		margin-left: 25px;
+	}
+}
+
+   /*TEAM*/
+
+.team{
+	padding:50px 0 80px;
+	text-align: center;
+}
+.team b ,h2,h4{
+	margin:20px 0 20px;
+	color:#4c4c4c;
+	margin-left: 20px;
+}
+ 
+.team p {
+	color:#737373;
+
+}
+.team img{
+	height: 150px;
+	width: 150px;
+	margin-top: 80px;
+	margin-left: 10px;
+	padding-bottom: 10px;
+}
+.team i {
+	height: 30px;
+	width: 30px;
+	padding: 5px;
+	font-size: 17px;
+	border-radius: 50%;
+	background-color: #a0db8e;
+	color:#fff;
+}
+.team a:hover i {
+	background-color: #709963;
+}
+.team img:hover {
+	height: 200px;
+	width:200px;
+}
+
+/*Clients*/
+
+.clients{
+	padding: 50px 0 80px;
+	background-color: #3399ff;
+	text-align: center;
+	
+	margin-top: 100px;
+}
+.clients h2{
+	color:#fff;
+}
+.clients p {
+	padding-bottom: 40px;
+	color: #fff;
+
+}
+.clients img{
+	cursor: pointer;
+	opacity: 0.6;
+	margin:40px,0;
+	transition : all 500ns ease-in-out;
+	height: 150px;
+	width: 150px;
+}
+.clients li:hover img{
+	opacity: 1;
+}
+
+/*contact*/
+
+.contact{
+	padding: 50px 0 80px;
+	text-align: center;
+}
+.contact p {
+	/*padding-top: 20px;*/
+	color: #737373;
+	padding-bottom: 80px;
+}
+.contact h2{
+	color: #4c4c4c;
+	margin: 20px 0 20px;
+}
+.contact .input-group{
+	margin-bottom: 20px;
+}
+.contact .form-control{
+    border-radius: 0 !important;
+}
+.contact .span{
+     border-radius: 0 !important;
+}
+.contact .btn{
+    border-radius: 0 !important;
+    width: 100%;
+    font-size: 15px;
+    background-color: #f08080;
+    color: #fff;
+}
+.contact i{
+	height: 15px;
+	width: 15px;
+	color: black;
+	background-color: transparent;
+}
+.contact .btn:hover{
+	background-color: #a85959 !important;
+	color:#fff !important;
+}
+.footer{
+	padding: 50px ;
+	color:#fff;
+	background-color: #222222;
+}
+.footer .social{
+	font-size: 18px;
+     height: 30px;
+     width: 30px;
+     padding: 5px;
+     text-align: center;
+     border: 1px solid #fff ;
+     margin-bottom: 10px;
+     margin-right: 5px;
+     
+}
+.footer input{
+	height: 40px;
+	width: 160px;
+	padding: 5px;
+	border: none;
+	background-color: #cccccc;
+    color: #000;
+    border-radius: 3px;
+}
+.footer button{
+	padding: 10px 5px 10px;
+	margin : -3px 0 0 5px;
+	border-radius: 3px;
+}
+.footer i{
+    padding: 5px;
+}
+.footer h4,p,i{
+	color: #fff;
+}
